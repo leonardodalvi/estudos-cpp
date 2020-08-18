@@ -1,3 +1,5 @@
+//Solicita do usuário 2 variáveis (anoAtual) e (anoNasc) e calcula a variável idade (idade)
+
 #include <iostream>
 
 #include <locale>
@@ -21,5 +23,5 @@ int main()
 	
 	idade=anoAtual-anoNasc;
 	
-	cout <<"Voc� tem ou far� " << idade << " anos.";
+	cout <<"Você tem ou fará " << idade << " anos.";
 }
